@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Display effect with automatic text color change</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script type="text/javascript" src="../src/jquery.reading-helper.js"></script>
+        <style>
+			body {
+				background: linear-gradient(to right, #ffdde1, #9ceed0, #a7bfe8, #6190e8);
+				background-size: 500% 500%;
+				transition: background 3s ease;
+				background-position:50% 50%
+			}
+			.container {
+				width: 1000px;
+                /* height: 520px; */
+				margin: 100px auto;
+				background-color: white;
+			}
+			.text {
+				position: relative;
+				width: 1000px;
+				/* height: 300px; */
+				margin: 100px auto;
+				padding: 1em;
+				border: 0.2em solid transparent;
+				background: linear-gradient(white, white) padding-box, repeating-linear-gradient(-45deg, red 0, red 12.5%, transparent 0, transparent 25%, #58a 0, #58a 37.5%, transparent 0, transparent 50%) 0 / 5em 5em;
+			}
+            .title {
+                color: #6594e0;
+                border-bottom: dashed 2px #6594e0;
+            }
+            .ending {
+                text-align: center;
+                margin-top: 50px;
+            }
+    </style>
+	</head>
+
+	<body>
+        <div class="container">
+            <div class="text" style="height: 860px;">
+                <h2 class="title text-color">ゆうれいのそでかけまつ</h2>
+                <div class="text-color">むかしむかし、 りょうしが かわにふねをだして、 さかなつりを していました。</div>
+                <div class="text-color">ところが、 どうしたことか、 きょうは １ぴきも つれません。</div>
+                <div class="text-color">「こんやは、 あきらめて かえるとするか」</div>
+                <div class="text-color">りょうしが そうおもっていると、 つりざおが おおきく、 ひっぱられました。</div>
+                <div class="text-color">おおものの てごたえです。</div>
+                <div class="text-color">りょうしが よろこんで ひきあげると、</div>
+                <div class="text-color">「へっ？ これは、 ・・・ギャァァァーー！」</div>
+                <div class="text-color">なんと、 つりいとの さきには、 わかいむすめの なきがら(→したい)が ひっかかって いました。</div>
+                <div class="text-color">「わわぁ、 なむあみだぶつ、 なむあみだぶつ」</div>
+                <div class="text-color">りょうしは、 なきがらを すてるわけにもいかず、 ふねに ひきあげました。</div>
+                <div class="text-color">「ああ、 まだ わかいというのに、 かわいそうに」</div>
+                <div class="text-color">りょうしは、 むすめの なきがらを ちかくの おてらに はこんで、 おしょうさんに おきょうを あげて もらいました。</div>
+                <div class="text-color">すると つぎのばんから、 おてらの ふるい まつのきの したに、 あのわかいむすめの ゆうれいが あらわれはじめたのです。</div>
+                <div class="text-color">「はて？ てあつく おきょうを あげてやったのに、 まだ、 このよに うらみでも あるのだろうか？」</div>
+                <div class="text-color">おしょうさんが ふしぎに おもっていると、 むすめの ゆうれいが あらわれて、</div>
+                <div class="text-color">「おきょうを あげてくださり、 ありがとうございました。 まよわず、 あのよ(→てんごく)へ いきたいのですが、 こころのこりが・・・。 ひとこと、 おきき くださいませんか？」</div>
+                <div class="text-color">と、 かすかなこえで、 いいました。</div>
+                <div class="text-color">「なんなりと、 はなして みなさい」</div>
+                <div class="text-color">「はい。 じつは、 すきなひとのもとへ、 およめに いくことに なっていたのですが、 いえが まずしいため、 よめいりの きものが つくれないでいました。 そのため、 せっかくの けっこんばなしが、 こわれてしまったのです」</div>
+                <div class="text-color">「そうか、 それはさぞ、 つらかったろう。 よしよし、 いまとなっては ておくれながら、わしが、 よめいりの きものを、 そろえてやろう」</div>
+                <div class="text-color">おしょうさんが そういうと、 むすめの ゆうれいは なみだを ふいて、 フッと きえさりました。</div>
+                <div class="text-color">あくるひ、 おしょうさんは やくそくの きものを かってきて、 ふるいマツの えだに かけておきました。</div>
+                <div class="text-color">すると、 よなかに むすめの ゆうれいが あらわれて、 きものを きがえて いったのでしょう。</div>
+                <div class="text-color">よめいりの きものは きえて、 かわりに、 むすめが おぼれて しんだときの きものの そでが、 えだに かけられていました。</div>
+                <div class="text-color">そのときから、 このマツは 「ゆうれいの そでかけマツ」と、 よばれるように なったのです。</div>
+                <div class="text-color ending">
+                    おしまい
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="text text-color" style="height: 620px;">
+                <h2 class="title">ネコがネズミを追いかける訳</h2>
+                <div class="text-color">むかしむかし、人間も生まれていない、大むかしのある年の暮れの事です。</div>
+                <div class="text-color">神さまが、動物たちに言いました。</div>
+                <div class="text-color">もうすぐ正月だ。元旦には、みんな私の所に来なさい。そして、先に来た者から十二番目までを、その年の大将としよう」</div>
+                <div class="text-color">ところが、うっかり者のネコは集まる日を忘れたので、友だちのネズミに聞きました。</div>
+                <div class="text-color">するとネズミは、</div>
+                <div class="text-color">「ああ、新年の二日だよ」 と、わざとうそを教えました。</div>
+                <div class="text-color">さて、元旦になりました。</div>
+                <div class="text-color">ウシは足が遅いので、朝早くに家を出ました。</div>
+                <div class="text-color">ちゃっかり者のネズミは、こっそりウシの背中に乗って神さまの前に来ると、ピョンと飛び降りて一番最初に神さまの前に行きました。</div>
+                <div class="text-color">それでネズミが最初の年の大将になり、ウシが二番目になりました。</div>
+                <div class="text-color">その後、トラ・ウサギ・タツ・ヘビ・ウマ・ヒツジ・サル・ニワトリ・イヌ・イノシシの順になりました。</div>
+                <div class="text-color">ところがネコは、ネズミに教えられた通り二日に神さまの所へ行きました。</div>
+                <div class="text-color">すると神さまは、</div>
+                <div class="text-color">「遅かったね。残念だけど、昨日決まったよ」</div>
+                <div class="text-color">と、言うではありませんか。</div>
+                <div class="text-color">くやしいのなんの。</div>
+                <div class="text-color">「ネズミめ、よくも騙したな！」</div>
+                <div class="text-color">怒ったネコは、それからずっと、ネズミを見ると追いかける様になりました。</div>
+                <div class="text-color ending">おしまい</div>
+            </div>
+        </div>
+	</body>
+</html>
