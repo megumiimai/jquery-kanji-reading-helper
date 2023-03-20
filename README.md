@@ -7,7 +7,7 @@
 
 #### standard
 ```
-$(selector).kanji_reading_help();
+$(selector).kanji_reading_helper();
 
 ```
 <img src="https://github.com/megumiimai/jquery-kanji-reading-helper/blob/main/howto/standard.png" width="400">
@@ -15,7 +15,7 @@ $(selector).kanji_reading_help();
 
 #### options: add text color to kanji
 ```
-$(selector).kanji_reading_help({
+$(selector).kanji_reading_helper({
     addColor: true
 });
 
